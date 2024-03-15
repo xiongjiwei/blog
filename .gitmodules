@@ -1,0 +1,3 @@
+[submodule "themes/ayn"]
+	path = themes/ayn
+	url = git@github.com:xiongjiwei/hugo-ayn.git
