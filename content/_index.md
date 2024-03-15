@@ -2,4 +2,4 @@
 title: Home
 ---
 
-## Welcome to XMin
+## Welcome
