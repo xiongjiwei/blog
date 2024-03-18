@@ -16,8 +16,8 @@ url = ""
 weight = 1
 
 [[menu.main]]
-name = "About"
-url = "about/"
+name = "Tags"
+url = "tags/"
 weight = 2
 
 [[menu.main]]
@@ -26,13 +26,14 @@ url = "categories/"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "tags/"
-weight = 4
+name = "About"
+url = "about/"
+weight = 5
 
 [[menu.main]]
 name = "Subscribe"
 url = "index.xml"
+weight = 4
 
 [markup.highlight]
 codeFences = false
@@ -46,3 +47,8 @@ enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [ [ "\\[", "\\]" ], [ "$$", "$$" ] ]
 inline = [ [ "\\(", "\\)" ] ]
+
+[markup.tableOfContents]
+endLevel = 6
+ordered = false
+startLevel = 3
