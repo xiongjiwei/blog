@@ -1,0 +1,11 @@
+name = "AYN"
+license = "MIT"
+licenselink = "https://github.com/xiongjiwei/AYN/blob/master/LICENSE.md"
+description = "Minimal Hugo theme"
+tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
+features = ["blog"]
+min_version = "0.18"
+
+[author]
+  name = "JW Xiong"
+  homepage = ""
