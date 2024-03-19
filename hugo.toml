@@ -26,14 +26,14 @@ url = "categories/"
 weight = 3
 
 [[menu.main]]
-name = "About"
-url = "about/"
-weight = 5
-
-[[menu.main]]
 name = "Subscribe"
 url = "index.xml"
 weight = 4
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 5
 
 [markup.highlight]
 codeFences = false
@@ -51,4 +51,4 @@ inline = [ [ "\\(", "\\)" ] ]
 [markup.tableOfContents]
 endLevel = 6
 ordered = false
-startLevel = 3
+startLevel = 2
